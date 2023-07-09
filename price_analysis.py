@@ -28,7 +28,7 @@ class HistoricalPriceAnalyzer:
         print(df.describe())
         print("-----------------")
 
-        # Calculate moving averages
+        # Calculate moving averages.
         df['MA10'] = df['close'].rolling(window=10).mean()
         df['MA20'] = df['close'].rolling(window=20).mean()
 
