@@ -24,3 +24,4 @@ __2. Data Analysis:__
  - A line chart is generated using ```matplotlib``` to visualize the closing prices and moving averages.
  - A candlestick chart is generated using ```mplfinance``` to visualize the historical price data.
 
+**To use this code, replace the ```api_url``` variable with the actual API endpoint to fetch historical price data for your desired cryptocurrency. Additionally, customize the data manipulation and analysis steps in the ```analyze_price_data``` method based on your specific requirements.
