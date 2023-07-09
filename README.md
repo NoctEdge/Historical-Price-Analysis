@@ -10,3 +10,17 @@ pip install pandas
 pip install matplotlib
 pip install mplfinance
 ```
+
+__1. Data Retrieval:__
+
+ - The ```fetch_historical_data``` method fetches historical price data from the specified API using the ```requests``` library and stores it in the ```self.data``` variable.
+   
+
+__2. Data Analysis:__
+
+ - The ```analyze_price_data method``` converts the data to a pandas DataFrame for analysis and manipulation.
+ - Basic statistics of the price data are printed using the ```describe``` method of the DataFrame.
+ - Moving averages (MA) are calculated for closing prices and added as additional columns to the DataFrame.
+ - A line chart is generated using ```matplotlib``` to visualize the closing prices and moving averages.
+ - A candlestick chart is generated using ```mplfinance``` to visualize the historical price data.
+
