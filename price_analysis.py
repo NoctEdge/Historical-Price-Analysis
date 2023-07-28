@@ -18,7 +18,7 @@ class HistoricalPriceAnalyzer:
             print("Error fetching historical data from the API.")
 
     def analyze_price_data(self):
-        # Convert data to pandas DataFrame for analysis
+        # Convert data to pandas DataFrame for analysis:
         df = pd.DataFrame(self.data)
 
         # Perform data manipulation and analysis using pandas
