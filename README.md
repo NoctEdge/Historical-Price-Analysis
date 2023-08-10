@@ -5,7 +5,7 @@ __Note:__ This code provides a starting point for historical price analysis. You
   
 
 Before using you have the required libraries ```requests```, ```pandas```, ```matplotlib```, ```mplfinance``` installed before running the code. You can install them using the following commands:
-```
+```bash
 pip install requests
 pip install pandas
 pip install matplotlib
